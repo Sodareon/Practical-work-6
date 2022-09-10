@@ -1,6 +1,9 @@
 
+import copy
+
+
 def integral_view(image: list[list]) -> list[list]:
-    integral_matrix = image
+    integral_matrix = copy.deepcopy(image)
     integral_element(len(integral_matrix)-1, len(integral_matrix[0])-1, image, integral_matrix)
     return integral_matrix
 
