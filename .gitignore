@@ -1,2 +1,5 @@
 /.idea
 /venv
+/.coverage
+/Practical_work4/__pycache__
+/Practical_work4/tests/__pycache__
