@@ -35,9 +35,3 @@ def rect_sum(image: list[list], x1: int, y1: int, x2: int, y2: int) -> int:
     else:
         return integral_matrix[y2-1][x2-1] + integral_matrix[y1-1][x1-1] - \
                integral_matrix[y2-1][x1-1] - integral_matrix[y1-1][x2-1]
-
-
-if __name__ == "__main__":
-    input_matrix = [[1, 1, 1], [1, 1, 1], [1, 1, 1]]
-    print(integral_view(input_matrix))
-    print(rect_sum(input_matrix, 1, 0, 2, 3))
