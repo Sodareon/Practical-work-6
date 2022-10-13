@@ -68,3 +68,8 @@ def test_with_error(image, expected_exception):
     with pytest.raises(expected_exception):
         integral_view(image)
 ```
+
+## Источники:
+-[Pytest](https://docs.pytest.org/en/latest/)  
+-[Sphinx](https://www.sphinx-doc.org/en/master/index.html)  
+-[PEP 257](https://www.python.org/dev/peps/pep-0257/)  
